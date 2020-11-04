@@ -1,4 +1,6 @@
-# main
+# Huawei Matebook solution of touchpad issue on Fedora 
+# If your touchpad is randomly being disabled when you boot the laptop try this solution!
+
 
  Put touchpad.sh file to /usr/bin than do chmod +x touchpad.sh on terminal
 
