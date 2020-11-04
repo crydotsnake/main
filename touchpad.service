@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable touchpad
+Before=graphical.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/enable_touchpad
+User=root
+
+[Install]
+WantedBy=multi-user.target
