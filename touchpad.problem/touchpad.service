@@ -4,7 +4,7 @@ Before=graphical.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/enable_touchpad
+ExecStart=/usr/bin/touchpad.sh
 User=root
 
 [Install]
